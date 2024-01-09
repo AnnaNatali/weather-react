@@ -15,14 +15,15 @@ export default function App() {
           <WeatherSearch />
         </div>
         <footer>
-          <p>
-            This project was created by Anna N. TYmoshenko,{" "}
-            <a
-              href="https://github.com/AnnaNatali/weather-react.git"
-              target="_blank"
-              rel="noreferrer"
-            ></a>
-          </p>
+          This project was created by Anna N. TYmoshenko,{" "}
+          <a
+            href="https://github.com/AnnaNatali/weather-react.git"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            open-soursed on Github
+          </a>
         </footer>
       </div>
     </StrictMode>
