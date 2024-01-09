@@ -14,6 +14,14 @@ export default function App() {
           <h1>Weather Search Engine</h1>
           <WeatherSearch />
         </div>
+        <footer>
+          This project was created by Anna N. TYmoshenko,{" "}
+          <a
+            href="https://github.com/AnnaNatali/weather-react.git"
+            target="_blank"
+            rel="noreferrer"
+          ></a>
+        </footer>
       </div>
     </StrictMode>
   );
