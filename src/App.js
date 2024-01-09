@@ -1,4 +1,4 @@
-import { StrictMode } from "react";
+//import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import WeatherSearch from "./WeatherSearch";
 
@@ -8,21 +8,19 @@ const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 export default function App() {
   return root.render(
-    <StrictMode>
-      <div className="App">
-        <div>
-          <h1>Weather Search Engine</h1>
-          <WeatherSearch />
-          <footer>
-            This project was created by Anna N. TYmoshenko,{" "}
-            <a
-              href="https://github.com/AnnaNatali/weather-react.git"
-              target="_blank"
-              rel="noreferrer"
-            ></a>
-          </footer>
-        </div>
+    <div className="App">
+      <div>
+        <h1>Weather Search Engine</h1>
+        <WeatherSearch />
       </div>
-    </StrictMode>
+      <footer>
+        This project was created by Anna N. TYmoshenko,{" "}
+        <a
+          href="https://github.com/AnnaNatali/weather-react.git"
+          target="_blank"
+          rel="noreferrer"
+        ></a>
+      </footer>
+    </div>
   );
 }
